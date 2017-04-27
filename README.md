@@ -15,7 +15,7 @@ Check the `pom.xml` to understand all the dependencies required.
 Spek uses the Maven Surefire plugin to find and run tests. Make sure that if you're not following default conventions for test location and names (often you're not with Spek), 
 that you include the correct pattern in the configuration of the plugin the `pom.xml` file
 
-In our case, tests are under src/test/kotlin/ and have the patter *Spec*.kt
+In our case, tests are under src/test/kotlin/ and have the pattern **Spec**.kt
 
 ```xml
  <plugin>
